@@ -1,0 +1,89 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+**/build
+/buildTest
+/buildDemo
+/dist
+/tmp
+/runner
+/_codegen
+/masterBuild
+/branchBuild
+/combinedBuild
+
+# dependencies
+!/vendor/ember-shim.js
+!/vendor/qunit-shim.js
+!/vendor/_loader.js
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+.DS_Store
+._.DS_Store
+Thumbs.db
+/coverage/*
+npm-debug.log
+/.gems/*
+.npmrc
+phantomjs.log
+
+._*.scss
+._*.hbs
+._*.js
+
+# external mint scm deps
+/node_modules
+/config
+/**/vendor/babel
+/**/vendor/li-track-client
+/**/vendor/fake-jquery.js
+.gradle
+/ligradle
+/mint
+i18n
+.settings
+.classpath
+.idea
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE
+jsconfig.json
+
+# bower stuff
+/bower_components
+
+# pemberly-tooling stuff
+./pemberly
+bower.json.tmp
+testem.log
+
+bower_components
+node_modules
+*/dist
+tmp
+*/tmp
+.sass-cache/
+*/connect.lock
+*/coverage/*
+libpeerconnection.log
+
+#docs
+docs/_build/
+docs/sphinx_rtd_theme/
+just
+/bower_components/
+/node_modules/
+/.npmrc
+/pemberly
+/just
+*.log
+scripts/kibitzerCheck/*
+scripts/aclCheck/*
+*.pyc
+/concat-stats-for
