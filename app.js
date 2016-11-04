@@ -19,6 +19,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/about', function(req, res) {
+  res.sendfile('./public/about/about.html');
+})
+
 app.get('*', function(req, res) {
   res.sendfile('./public/index.html');
 })
