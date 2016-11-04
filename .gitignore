@@ -87,3 +87,6 @@ scripts/kibitzerCheck/*
 scripts/aclCheck/*
 *.pyc
 /concat-stats-for
+
+## Project specific
+/public
