@@ -91,3 +91,4 @@ scripts/aclCheck/*
 ## Project specific
 /public/*
 !/public/about
+!/public/favicon.ico
