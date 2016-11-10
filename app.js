@@ -19,21 +19,30 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'public/dist')));
 
 // api route to offer meeting room data
 app.get('/api/data', function(req, res) {
   res.json(data);
 })
 
+// index will redirect to /about
+app.get(/^\/(index(.html)?)?$/, function(req, res) {
+  res.redirect('/about');
+});
+
+// /about route from Canvas template
 app.get('/about', function(req, res) {
   res.sendfile('./public/about/about.html');
 })
 
-app.get('*', function(req, res) {
+// /search route from ember
+app.get('/search', function(req, res) {
   res.sendfile('./public/dist/index.html');
 })
+
+// static asset
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/dist')));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
