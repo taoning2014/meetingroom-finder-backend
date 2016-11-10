@@ -89,6 +89,8 @@ scripts/aclCheck/*
 /concat-stats-for
 
 ## Project specific
+*.sublime-project
+*.sublime-workspace
 /public/*
 !/public/about
 !/public/favicon.ico
