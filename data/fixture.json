@@ -1,51 +1,111 @@
 {
   "data": [{
     "id": "NYC_ESB_26_1",
-    "name": "Askins",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Askins",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_2",
-    "name": "Hamilton",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Hamilton",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_3",
-    "name": "Hopper",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Hopper",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_4",
-    "name": "Kwolek",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Kwolek",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_5",
-    "name": "Lamarr",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Lamarr",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_6",
-    "name": "Lovelace",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Lovelace",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_7",
-    "name": "McClintok",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "McClintok",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_8",
-    "name": "Nook 1",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Nook 1",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_9",
-    "name": "Nook 2",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Nook 2",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_10",
-    "name": "Nook 3",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Nook 3",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_11",
-    "name": "Nook 4",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Nook 4",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }, {
     "id": "NYC_ESB_26_12",
-    "name": "Nook 5",
-    "positon": { "x": 0, "y": 0 }
+    "type": "meetingroom",
+    "attributes": {
+      "name": "Nook 5",
+      "positon-x": 0,
+      "positon-y": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    }
   }]
 }
