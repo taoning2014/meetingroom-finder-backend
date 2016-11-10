@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // api route to offer meeting room data
-app.get('/api/data', function(req, res) {
+app.get('/api/meetingrooms', function(req, res) {
   res.json(data);
 })
 
