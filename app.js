@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+var data = require('./data/fixture.json');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -19,6 +21,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public/dist')));
+
+// api route to offer meeting room data
+app.get('/api/data', function(req, res) {
+  res.json(data);
+})
 
 app.get('/about', function(req, res) {
   res.sendfile('./public/about/about.html');
