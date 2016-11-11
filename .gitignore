@@ -94,3 +94,4 @@ scripts/aclCheck/*
 /public/*
 !/public/about
 !/public/favicon.ico
+!/public/image
