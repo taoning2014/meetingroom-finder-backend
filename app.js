@@ -43,7 +43,7 @@ app.get('/search', function(req, res) {
 })
 
 // static asset
-app.use(express.static(path.join(__dirname, 'public/about')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public/dist')));
 
 // catch 404 and forward to error handler
