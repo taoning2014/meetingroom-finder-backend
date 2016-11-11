@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-var data = require('./data/fixture.json');
+var meetingrooms = require('./data/fixture.json').data;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,8 +24,17 @@ app.use(cookieParser());
 
 // api route to offer meeting room data
 app.get('/api/meetingrooms', function(req, res) {
-  res.json(data);
-})
+  if (req.query.name !== undefined) {
+    let filteredMeetingrooms = meetingrooms.filter(function(i) {
+      return i.attributes.name.toLowerCase().indexOf(req.query.name.toLowerCase()) !== -1;
+    });
+    console.log(`fire filteredRentals: ${new Date()}, ${filteredMeetingrooms}`)
+    res.json({ data: filteredMeetingrooms });
+  } else {
+    console.log(`fire meetingrooms: ${new Date()}, ${meetingrooms}`)
+    res.json({ data: meetingrooms });
+  }
+});
 
 // index will redirect to /about
 app.get(/^\/(index(.html)?)?$/, function(req, res) {
@@ -44,6 +53,7 @@ app.get('/search', function(req, res) {
 
 // static asset
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/about')));
 app.use(express.static(path.join(__dirname, 'public/dist')));
 
 // catch 404 and forward to error handler
