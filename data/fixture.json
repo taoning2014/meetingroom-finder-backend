@@ -6,7 +6,8 @@
       "name": "Askins",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-1.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-1.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_2",
@@ -15,7 +16,8 @@
       "name": "Hamilton",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-2.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-2.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_3",
@@ -24,7 +26,8 @@
       "name": "Hopper",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-3.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-3.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_4",
@@ -33,7 +36,8 @@
       "name": "Kwolek",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-4.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-4.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_5",
@@ -42,7 +46,8 @@
       "name": "Lamarr",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-5.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-5.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_6",
@@ -51,7 +56,8 @@
       "name": "Lovelace",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-6.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-6.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_7",
@@ -60,7 +66,8 @@
       "name": "McClintok",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-1.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-1.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_8",
@@ -69,7 +76,8 @@
       "name": "Nook 1",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-2.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-2.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-2.png"
     }
   }, {
     "id": "NYC_ESB_26_9",
@@ -78,7 +86,8 @@
       "name": "Nook 2",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-3.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-3.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_10",
@@ -87,7 +96,8 @@
       "name": "Nook 3",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-4.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-4.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_11",
@@ -96,7 +106,8 @@
       "name": "Nook 4",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-5.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-5.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }, {
     "id": "NYC_ESB_26_12",
@@ -105,7 +116,8 @@
       "name": "Nook 5",
       "position-x": 0,
       "position-y": 0,
-      "image": "http://tning-ld1.linkedin.biz:3000/image/sheep-6.png"
+      "image-1": "http://tning-ld1.linkedin.biz:3000/image/sheep-6.png",
+      "image-2": "http://tning-ld1.linkedin.biz:3000/image/map-1.png"
     }
   }]
 }
